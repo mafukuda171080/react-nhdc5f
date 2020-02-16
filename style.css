@@ -61,6 +61,7 @@ table tr:last-child td:last-child {
   position: absolute;
   bottom: 10;
   right: 0;
+  height: 50%;
   width: 30%;
 }
 
