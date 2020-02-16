@@ -6,7 +6,8 @@
   </head>
 
 <body>
-<table>
+  <script src="index.js"></script>
+<table id="table1">
   <tr>
     <th>ステータス</th>
     <th>受付番号</th>
@@ -37,17 +38,8 @@
 <a href="#" class="btn1-icon"id="absolute">受付</a>
 </div>
 
-行を追加します<input type="button" value="行を追加" id="coladd" onclick="coladd()">
+行を追加します<input type="button" value="行を追加" onclick="coladd('table1')">
         
-<table id="table" border="1">
-    <tr>
-        <td>
-            SAMPLE FOR TABLE-ROWADD
-        </td>
-        <td>
-            SAMPLE FOR TABLE-ROWDELETE
-        </td>
-    </tr>
-</table>
+
 
 </body>

@@ -3,6 +3,9 @@ import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
 
+
+
+
 class App extends Component {
   constructor() {
     super();
@@ -24,8 +27,8 @@ class App extends Component {
 }
 
 <script>
-    function coladd() {
-        var table = document.getElementById("table");
+    function coladd(id) {
+        var table = document.getElementById(id);
         // 行を行末に追加
         var row = table.insertRow(-1);
         //td分追加
@@ -35,10 +38,5 @@ class App extends Component {
         cell1.innerHTML = '行を追加しました';
         cell2.innerHTML = 'この行を削除しますか？<input type="button" value=削除" id="coladd" onclick="coldel(this)">';
     }
-    function coldel(obj) {
-        // 削除ボタンを押下された行を取得
-        tr = obj.parentNode.parentNode;
-        // trのインデックスを取得して行を削除する
-        tr.parentNode.deleteRow(tr.sectionRowIndex);
-    }
+    
 </script>
