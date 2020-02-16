@@ -1,4 +1,4 @@
-# react-nhdc5f
+# waiting bourd開発
 
 ウエイティングボードの開発環境
 
