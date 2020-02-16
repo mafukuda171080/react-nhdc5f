@@ -51,19 +51,20 @@ table tr:last-child td:last-child {
   display: inline-block;
   max-width: 180px;
   text-align: left;
-  background-color: #9ec34b;
+  background: linear-gradient(#829ebc,#225588);
   font-size: 16px;
   color: #FFF;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px 8px 32px;
   border-radius: 4px;
-  position: relative;
+  position: absolute;
+  bottom: 10;
+  right: 0;
 }
 
 .btn1-icon:before {
   font-family: "FontAwesome";
-  content: "\f105";/* 好きなフォントアイコンを　*/
   position: absolute;
   left: 16px;
   top: 50%;
