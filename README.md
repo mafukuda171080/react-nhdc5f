@@ -1,4 +1,4 @@
-# waiting bourd開発
+# waiting board開発
 
 ウエイティングボードの開発環境
 
